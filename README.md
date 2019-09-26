@@ -26,6 +26,8 @@ Open [http://localhost:3000](http://localhost:3000) to view the app in browser.
 
 ## Usage
 
-After running `npm run dev` and opening the [http://localhost:3000](http://localhost:3000), upload **exampleInvoice.xml** and click on **Convert To CSV** button.
+Make sure you have [NodeJS](https://nodejs.org/en/) installed in your machine. 
+
+After running `npm install`, `npm run dev` and opening the [http://localhost:3000](http://localhost:3000), upload **exampleInvoice.xml** and click on **Convert To CSV** button.
 
 You'll receive a converted **Invoice.csv** file in your Downloads folder, which can be used to verify the correctness of output in Procounter.
