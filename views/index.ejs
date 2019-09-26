@@ -1,18 +1,45 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <title>XML2CSV Convertor</title>
         <meta charset="utf-8">
-        <title>Test</title>
-        <link rel="stylesheet" type="text/css" href="/css/style.css">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-        <div class="container">
-            <form ref='uploadForm' id='uploadForm' action='/' method='post' encType="multipart/form-data">
-                <input type="file" name="uploadedFile" />
-                <input type='submit' value='Convert To CSV' />
-            </form>
+    <body data-offset="300">
+
+    <div class="site-wrap">
+
+        <div class="site-navbar-wrap">
+        <div class="site-navbar site-navbar-target">
+            <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6 col-lg-3">
+                <h1 class="my-0 site-logo"><a href="index.html">XML2CSV</a></h1>
+                </div>
+            </div>
+            </div>
         </div>
+        </div>
+
+        <div class="site-section" id="home-section">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6 mb-5">
+                <p class="text-white mb-5">Upload an XML file and click on Convert To CSV</p>
+                <form ref='uploadForm' id='uploadForm' action='/' method='post' encType="multipart/form-data">
+                    <input class="px-6 py-6" type="file" name="uploadedFile" />
+                    <input class="btn btn-white px-6 py-6" type='submit' value='Convert To CSV' />
+                </form>
+            </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
     </body>
 </html>

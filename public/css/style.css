@@ -1,0 +1,108 @@
+body {
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-image: url("../images/polygon.png");
+    background-position: -500px -1585px;
+    background-repeat: no-repeat;
+}
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.site-wrap:before {
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    content: "";
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.btn {
+    border-width: 2px;
+}
+.btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.btn.btn-white {
+    background: #fff;
+    border: 2px solid transparent;
+}
+.btn.btn-white:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.site-section {
+    padding: 4.5em 0;
+}
+@media (min-width: 768px) {
+    .site-section {
+        padding: 7em 0;
+    }
+}
+.site-section.site-section-sm {
+    padding: 4em 0;
+}
+
+/* Navbar */
+.site-navbar-wrap {
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    left: 0;
+}
+.site-navbar-wrap a {
+    color: #000;
+}
+.site-navbar-wrap .site-navbar-top {
+    font-size: 0.8rem;
+}
+
+.site-navbar-top {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.site-navbar {
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 15px 0;
+}
+.site-navbar .site-logo {
+    padding-top: 30px;
+    font-weight: 200;
+    line-height: 0;
+    position: relative;
+}
+.site-navbar .site-logo a {
+    font-weight: 200;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
