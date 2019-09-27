@@ -1,6 +1,6 @@
 # XML2CSV Converter
 
-This application converts XML files to CSV format specifically for Finago Procounter software.
+This application converts XML files to CSV format specifically for Finago Procountor software.
 
 ### Technologies & Libraries Used
 
