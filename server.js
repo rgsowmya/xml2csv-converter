@@ -23,7 +23,6 @@ app.post('/', function(req, res) {
 
     // Name of the input field (i.e. "uploadedFile") is used to retrieve the uploaded file
     let uploadedFile = req.files.uploadedFile.data;
-    // res.render('index');
 
     // Store the uploaded file to "input" folder
     fs.writeFileSync('./input/Invoice.xml', uploadedFile);
